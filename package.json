@@ -1,0 +1,9 @@
+{
+  "name": "simple-blockchain-in-typescript",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/y2o2u2n/simple-blockchain-in-typescript.git",
+  "author": "Youn Junseok <y2o2u2n@gmail.com>",
+  "license": "MIT"
+}
