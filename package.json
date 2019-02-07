@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/y2o2u2n/simple-blockchain-in-typescript.git",
   "author": "Youn Junseok <y2o2u2n@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "yarn tsc"
+  }
 }
