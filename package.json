@@ -7,7 +7,12 @@
   "author": "Youn Junseok <y2o2u2n@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "yarn tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.1.36"
+  },
+  "dependencies": {
+    "typescript": "^3.3.1"
   }
 }
